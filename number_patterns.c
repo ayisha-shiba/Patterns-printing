@@ -1,5 +1,78 @@
 // #include <stdio.h>
 
+// int main() {
+//     int i,j;
+//     for(i=1;i<=5;i++){
+//         for(j=1;j<=i;j++){
+//             printf(" %d",j);
+//         }
+//         printf("\n");
+//     }
+    
+//     return 0;
+// }
+// //  1
+// //  1 2
+// //  1 2 3
+// //  1 2 3 4
+// //  1 2 3 4 5
+
+#include <stdio.h>
+
+int main()
+{   int i,j;
+    for(i=1;i<=5;i++){
+        for(j=1;j<=i;j++){
+            if(i%2==0){
+                printf("0 ");
+            }else{
+                printf("1 ");
+            }
+        }printf("\n");
+    }
+   
+    return 0;
+}
+
+// 1
+// 0 0
+// 1 1 1 
+// 0 0 0 0
+// 1 1 1 1 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// #include <stdio.h>
+
 // int main()
 // {   int i,j,k;
 //     for(i=1;i<=5;i++){
@@ -44,22 +117,22 @@
 //  50
 //  45 40
 //  35 30 25
-//  20 15 10 5
+// //  20 15 10 5
 
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main()g
-{   int i,j;
-    int num = 50;
-    for(i=1;i<=4;i++){
-        for(j=1;j<=i;j++){
-            printf(" %d",num);
-            num -= 5;
-        }
-            printf("\n");
-    }
+// int main()
+// {   int i,j;
+//     int num = 50;
+//     for(i=1;i<=4;i++){
+//         for(j=1;j<=i;j++){
+//             printf(" %d",num);
+//             num -= 5;
+//         }
+//             printf("\n");
+//     }
 
 
-    return 0;
-}
+//     return 0;
+// }
